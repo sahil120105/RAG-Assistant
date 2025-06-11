@@ -1,0 +1,12 @@
+ipykernel
+langchain_community
+pypdf
+faiss-cpu
+arxiv
+wikipedia
+langchainhub
+groq
+langchain-groq
+beautifulsoup4
+streamlit
+sentence_transformers
