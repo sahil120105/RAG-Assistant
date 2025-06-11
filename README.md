@@ -68,15 +68,8 @@ HUGGINGFACE_API_TOKEN=your_huggingface_token_here
 
 ### Running the Applications
 
-**For Document Upload Interface:**
 ```bash
-cd Q&A_Chatbots
-streamlit run app.py
-```
-
-**For Web-based Data Loading:**
-```bash
-cd groq
+cd final_rag
 streamlit run app.py
 ```
 
@@ -88,18 +81,6 @@ curl -fsSL https://ollama.ai/install.sh | sh
 # Pull Llama3 model
 ollama pull llama3
 ```
-
-## Usage
-
-### Option 1: Upload Your Documents
-1. Run `streamlit run Q&A_Chatbots/app.py`
-2. Upload your documents through the web interface
-3. Ask questions about your uploaded content
-
-### Option 2: Load from Web URLs
-1. Run `streamlit run groq/app.py` 
-2. Enter web URLs to load content
-3. Query the web-based knowledge base
 
 ## Technologies Used
 
